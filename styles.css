@@ -1,3 +1,144 @@
+@media  (max-width: 1746px) /** Media query dispositivo PC **/{
+    
+    body{
+        background: linear-gradient(90deg, #fd4368ee 0%, #3f5efb 100%);
+    }
+    .container{
+        justify-content: center;
+    }
+    .Titulo{
+        margin-top: 200px;
+        font-family: 'Archivo Black', sans-serif;
+        margin-left: 260px;   
+    }
+    
+    h1{
+        font-size: 65px;
+        margin-bottom: 3%;
+    }
+    .input-text{
+        font-size: 15px;
+        margin-top: 0px;
+        width: 670px;
+        height: 20px;
+        margin-left: 350px;
+        margin-bottom: 25px;
+        border-radius: 12px;
+    }
+    input{
+        text-align: center;
+    }
+    
+    ::placeholder{  
+        text-align: center;
+        color: #3b3b3b;    
+        font-size: 17px;
+    }
+    .btn1{
+        font-size: 15px;
+        width: 90px;
+        height: 28px;
+        margin-left: 100px;
+        border-radius: 15px;
+        color: white;
+        background: rgba(13, 64, 219, 0.219);
+        background: linear-gradient(90deg, rgba(13, 64, 219, 0.623) 0%, rgba(100, 44, 211, 0.507) 39%, rgb(213, 91, 230) 89%);
+        text-shadow:-1px 1px 4px #000000;
+        cursor:pointer;
+    }
+    a{
+        margin-left: 580px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: rgba(240, 255, 255, 0.637);
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .fin{
+        color: #16161686;
+        background-color: #64636313;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 99%;
+    }
+    p{
+        font-size: 11px;
+        margin: 1px;
+    }
+    }
+@media  (max-width: 1280px) /** Media query dispositivo Laptop **/{
+    
+    body{
+        background: linear-gradient(90deg, #fd4368ee 0%, #3f5efb 100%);
+    }
+    .container{
+        justify-content: center;
+    }
+    .Titulo{
+        margin-top: 250px;
+        font-family: 'Archivo Black', sans-serif;
+        margin-left: 210px;   
+    }
+    
+    h1{
+        font-size: 65px;
+        margin-bottom: 3%;
+    }
+    .input-text{
+        font-size: 15px;
+        margin-top: 0px;
+        width: 670px;
+        height: 20px;
+        margin-left: 300px;
+        margin-bottom: 25px;
+        border-radius: 12px;
+    }
+    input{
+        text-align: center;
+    }
+    
+    ::placeholder{  
+        text-align: center;
+        color: #3b3b3b;    
+        font-size: 17px;
+    }
+    a{
+        margin-left: 625px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: rgba(240, 255, 255, 0.637);
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .btn1{
+        font-size: 15px;
+        width: 90px;
+        height: 28px;
+        margin-left: 600px;
+        border-radius: 15px;
+        color: white;
+        background: rgba(13, 64, 219, 0.219);
+        background: linear-gradient(90deg, rgba(13, 64, 219, 0.623) 0%, rgba(100, 44, 211, 0.507) 39%, rgb(213, 91, 230) 89%);
+        text-shadow:-1px 1px 4px #000000;
+        cursor:pointer;
+        margin-top: 30px;
+    }
+    .fin{
+        color: #16161686;
+        background-color: #64636313;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 99%;
+    }
+    p{
+        font-size: 11px;
+        margin: 1px;
+    }
+    }
+@media  (max-width: 768px) /** Media query dispositivo ipad **/{
+    
 body{
     background: linear-gradient(90deg, #fd4368ee 0%, #3f5efb 100%);
 }
@@ -5,9 +146,9 @@ body{
     justify-content: center;
 }
 .Titulo{
-    margin-top: 200px;
+    margin-top: 250px;
     font-family: 'Archivo Black', sans-serif;
-    margin-left: 265px;   
+    margin-left: 180px;   
 }
 
 h1{
@@ -17,9 +158,9 @@ h1{
 .input-text{
     font-size: 15px;
     margin-top: 0px;
-    width: 750px;
+    width: 670px;
     height: 20px;
-    margin-left: 230px;
+    margin-left: 40px;
     margin-bottom: 25px;
     border-radius: 12px;
 }
@@ -32,24 +173,26 @@ input{
     color: #3b3b3b;    
     font-size: 17px;
 }
+a{
+    margin-left: 355px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgba(240, 255, 255, 0.637);
+    font-size: 17px;
+    margin-top: 5px;
+}
 .btn1{
     font-size: 15px;
     width: 90px;
     height: 28px;
-    margin-left: 50px;
+    margin-left: 330px;
     border-radius: 15px;
     color: white;
     background: rgba(13, 64, 219, 0.219);
     background: linear-gradient(90deg, rgba(13, 64, 219, 0.623) 0%, rgba(100, 44, 211, 0.507) 39%, rgb(213, 91, 230) 89%);
     text-shadow:-1px 1px 4px #000000;
     cursor:pointer;
-}
-a{
-    margin-left: 580px;
-    text-decoration: none;
-    font-family: sans-serif;
-    color: rgba(240, 255, 255, 0.637);
-    font-size: 17px;
+    margin-top: 20px;
 }
 .fin{
     color: #16161686;
@@ -63,3 +206,77 @@ p{
     font-size: 11px;
     margin: 1px;
 }
+}
+
+@media  (max-width: 400px) /** Media query Dispositivo Movil **/{
+    
+body{
+    background: linear-gradient(90deg, #fd4368ee 0%, #3f5efb 100%);
+}
+.container{
+    justify-content: center;
+}
+.Titulo{
+    margin-top: 280px;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 15px;   
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+.input-text{
+    font-size: 15px;
+    margin-top: 0px;
+    width: 350px;
+    height: 25px;
+    margin-left: 1px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+input{
+    text-align: center;
+}
+
+::placeholder{  
+    text-align: center;
+    color: #3b3b3b;    
+    font-size: 15px;
+}
+.link{
+    margin-left: 160px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgba(240, 255, 255, 0.637);
+    font-size: 17px;
+    margin-top: 10px;
+}
+.btn1{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 90px;
+    height: 28px;
+    margin-left: 135px;
+    border-radius: 15px;
+    color: white;
+    background: rgba(13, 64, 219, 0.219);
+    background: linear-gradient(90deg, rgba(13, 64, 219, 0.623) 0%, rgba(100, 44, 211, 0.507) 39%, rgb(213, 91, 230) 89%);
+    text-shadow:-1px 1px 4px #000000;
+    cursor:pointer;
+}
+.fin{
+    color: #16161686;
+    background-color: #64636313;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+p{
+    font-size: 11px;
+    margin: 1px;
+}
+
+}
+
