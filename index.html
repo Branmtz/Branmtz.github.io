@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="styles.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <title>Preguntame!</title>
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <section class="container">
-        <div >
-            <h1 class="Titulo">¿Estas listo para jugar?</h1>
+    <div class="hero">
+        <nav>
+            <h1 class="logo">PORTAFOLIO</h1>
+            <ul>
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="About.html">ACERCA DE MI</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">CONTRATAME</a></li>
+            </ul>
+        </nav>    
+        <div class="detel">
+            <h1>Yo soy Brandon <span>Martinez</span></h1>
+                <p>Desarrollador web apasionado en crear soluciones</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digitales,
+                    efectivas y eficientes.</p>
+
+                <a href="Brandon Martinez CV.pdf" download>DOWNLOAD CV</a>
+            <div class="images">
+                <img src="images/forma1.png" alt="Foto de fondo" class="form">
+                <img src="images/bran image.png" alt="Forma de fondo" class="shape">
+            </div>
         </div>
-        <div>
-            <input class="input-text" type="text" id="resultado" placeholder='Presiona "Jugar" para comenzar.'>
-            <a class="link" href="https://paypal.me/BranMrtinez?country.x=MX&locale.x=es_XC">Donar</a>
-            <button class="btn1" onclick="generarElemento()" id="btn">Jugar</button>
-        </div>
-        <div class="fin">
-             <p>¡Este juego es solo para +18!</p>
-             <p>*Juego de preguntas hot lanzadas de forma aleatoria, Contiene + 900 preguntas hot*</p>
-             <p>Desarrollado por Brandon Martinez © 2023</p>
-        </div>
-    </section>
-    
+    </div>
 </body>
-<script src="main.js"></script>
+
 </html>
